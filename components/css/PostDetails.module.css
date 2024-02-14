@@ -1,0 +1,141 @@
+/* PostDetails.module.css */
+.container {
+    background-color: #191824;
+    padding: 30px;
+    color: #E4E7F8;
+}
+
+.introduction {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.divider {
+    width: 100%;
+    border-top: 1px solid #ddd; /* Escolha a cor desejada para o divisor */
+    margin: 10px 0; /* Ajuste a margem conforme necessário */
+  }
+
+.markdown {
+    padding-top: 20px;
+}
+
+.card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1F1E2D;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .backButton {
+    background-color: #2561a1;
+    color: #E4E7F8;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .backButton:hover {
+    background-color: #0056b3;
+  }
+
+  .recommended{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .recommendedPosts {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .recommendedPosts a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .recommendedPosts a:hover {
+    text-decoration: underline;
+  }
+
+  .postList {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* 4 colunas responsivas */
+    gap: 20px;
+  }
+
+  .postCard {
+    background-color: #1F1E2D;
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #E4E7F8
+  }
+  
+  .postCard h1 {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .postCard span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .postCard img {
+    width: 100%;
+    height: 200px;
+    display: block;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .postCard div {
+    padding: 10px;
+  }
+  
+  .verMaisButton {
+    /* Adicione estilos de formatação do botão aqui */
+    background-color: #2561a1;
+    color: #E4E7F8;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .verMaisButton:hover {
+    /* Adicione estilos de formatação do botão ao passar o mouse aqui */
+    background-color: #E4E7F8;
+    color: #1F1E2D;
+  }
+
+  .paragraph {
+    margin-bottom: 10px; /* Ou qualquer outro valor de espaçamento desejado */
+  }
+  

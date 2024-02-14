@@ -1,0 +1,46 @@
+/* components/Header.module.css */
+.header {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: #11111A;
+    color: #E4E7F8;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logoContainer {
+    margin-right: 20px;
+  }
+  
+  .logo {
+    width: 100px; /* Ajuste conforme necessário */
+    height: auto;
+  }
+  
+  .title {
+    font-size: 20px;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #E4E7F8; /* Cor dos links */
+    font-size: 16px;
+  }
+  
